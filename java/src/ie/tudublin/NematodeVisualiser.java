@@ -61,5 +61,8 @@ public class NematodeVisualiser extends PApplet
 
 	public void draw()
 	{	
+		textSize(80);
+		text("i cannot visualize it :(", 75, 200);
+		
 	}
 }
