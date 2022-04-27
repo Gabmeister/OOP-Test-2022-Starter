@@ -14,6 +14,11 @@ public class Nematode extends PApplet
 	private String gender;
 	private int eyes;
 
+    @Override //toString method generated VSC
+    public String toString() {
+        return "Nematode [eyes=" + eyes + ", gender=" + gender + ", length=" + length + ", limbs=" + limbs + ", name="
+                + name + "]";
+    }
 
     public Nematode(TableRow row){
         this(
