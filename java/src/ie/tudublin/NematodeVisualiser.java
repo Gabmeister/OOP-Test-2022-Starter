@@ -8,8 +8,10 @@ import processing.data.TableRow;
 
 public class NematodeVisualiser extends PApplet
 {
+	//ArrayList for holding Nematode objects
+	ArrayList<Nematode> nematodes = new ArrayList<Nematode>();
 
-	Nematode[] nematodes = new Nematode[13]; //13 nematodes in csv file
+
 	Table table;
 
 	String name; //THIS IS ORDERED!!
